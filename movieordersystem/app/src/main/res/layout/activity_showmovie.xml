@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <Button
+
+                android:layout_margin="0dp"
+                android:onClick="back"
+                android:id="@+id/buttonB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back" />
+
+            <Button
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="0dp"
+                android:id="@+id/buttonN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="next"
+                android:text="Next" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/imageViewM"
+            android:layout_width="389dp"
+            android:layout_height="200dp" />
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="TITLE"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Detail"
+            />
+
+        <TextView
+            android:id="@+id/textViewDe"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="textViewDetail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Genre"
+            />
+
+        <TextView
+            android:id="@+id/textViewGenre"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="textViewGenre" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Price"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="textViewPrice"
+            android:id="@+id/textViewPrice"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Rating"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="textViewRating"
+            android:id="@+id/textViewRating"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Actor"
+            />
+
+        <TextView
+            android:id="@+id/textViewActor"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="textViewActor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Director"
+            />
+
+        <TextView
+            android:id="@+id/textViewDirector"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="textViewDirector" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="Add to shopping cart" />
+
+    </LinearLayout>
+</ScrollView>

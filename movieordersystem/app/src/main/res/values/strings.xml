@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">movieOrderSystem</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="Already_registered">Already registered?</string>
+    <string name="movie_order_system">Movie Order System</string>
+    <string name="dollor">$</string>
+    <string name="over10">/ 10</string>
+    <string name="cart_title">Shopping Cart</string>
+    <string name="price">price</string>
+    <string name="product">product</string>
+    <string name="amount">amount</string>
+    <string name="cart">cart</string>>
+    <string name="clear">Clear Cart</string>
+    <string name="pay">pay</string>
+    <string name="home">home</string>
+    <string name="logout">logout</string>
+</resources>
